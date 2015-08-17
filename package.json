@@ -7,7 +7,6 @@
     "lasso-plugin",
     "css"
   ],
-  "private": true,
   "main": "lasso-autoprefixer.js",
   "scripts": {
     "test": "node_modules/.bin/jshint *.js"
