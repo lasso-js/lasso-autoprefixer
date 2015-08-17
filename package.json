@@ -7,6 +7,10 @@
     "lasso-plugin",
     "css"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lasso-js/lasso-autoprefixer.git"
+  },
   "main": "lasso-autoprefixer.js",
   "scripts": {
     "test": "node_modules/.bin/jshint *.js"
