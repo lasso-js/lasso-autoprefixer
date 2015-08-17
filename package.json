@@ -1,6 +1,6 @@
 {
   "name": "lasso-autoprefixer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Autoprefixer plugin for Lasso.js using postcss & autoprefixer-core",
   "keywords": [
     "lasso",
