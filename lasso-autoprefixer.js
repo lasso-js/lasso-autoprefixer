@@ -3,7 +3,7 @@
 var autoprefixer = require('autoprefixer-core');
 var postcss = require('postcss');
 var DEFAULT_CONFIG = {
-    browsers: ['last 2 versions']
+    browsers: ['last 4 versions']
 };
 
 module.exports = function(lasso, config) {
