@@ -29,7 +29,7 @@ require('lasso').configure({
 # Plugin Configuration
 
 
-This plugin uses [Autoprefixer options](https://github.com/postcss/autoprefixer-core#usage);
+This plugin uses [Autoprefixer options](https://github.com/postcss/autoprefixer#options);
 
 
 ## Sample Configuration
