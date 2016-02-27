@@ -1,6 +1,6 @@
 'use strict';
 
-var autoprefixer = require('autoprefixer-core');
+var autoprefixer = require('autoprefixer');
 var postcss = require('postcss');
 var DEFAULT_CONFIG = {
     browsers: ['last 4 versions']
