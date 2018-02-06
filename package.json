@@ -13,17 +13,18 @@
   },
   "main": "lasso-autoprefixer.js",
   "scripts": {
-    "test": "node_modules/.bin/jshint *.js"
+    "test": "node_modules/.bin/mocha --ui bdd --reporter spec ./test && node_modules/.bin/jshint *.js"
   },
   "author": "Merwan Rodriguez <merwan@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^6.3.3",
+    "lasso": "^1.20.3",
     "postcss": "^5.0.16"
   },
   "devDependencies": {
-    "mocha": "~1.15.1",
-    "chai": "~1.8.1",
-    "jshint": "^2.4.4"
+    "chai": "^1.10.0",
+    "jshint": "^2.4.4",
+    "mocha": "^1.21.5"
   }
 }
