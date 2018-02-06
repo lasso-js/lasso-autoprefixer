@@ -18,7 +18,8 @@
   "author": "Merwan Rodriguez <merwan@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "autoprefixer": "^7.2.5"
+    "autoprefixer": "^7.2.5",
+    "postcss": "^6.0.17"
   },
   "devDependencies": {
     "mocha": "~1.15.1",
