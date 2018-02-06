@@ -31,7 +31,7 @@ describe('lasso-autoprefixer' , function() {
             ]
         }, function (err, page) {
             if (err) return done(err);
-            expect(page.getCSSUrls()).to.deep.equal(['/static/test-a2c9d362.css'])
+            expect(page.getCSSUrls()).to.deep.equal(['/static/test-4ac11b8f.css'])
             done();
         });
     });
