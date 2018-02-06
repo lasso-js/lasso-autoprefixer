@@ -10,7 +10,7 @@ var lassoAutoprefixer = require('../'); // Load this module just to make sure it
 var lasso = require('lasso');
 
 describe('lasso-autoprefixer' , function() {
-    it('should prefix a css file', function (done) {
+    it('should prefix a css file', function () {
         var myLasso = lasso.create({
             fileWriter: {
                 fingerprintsEnabled: true,
@@ -24,15 +24,13 @@ describe('lasso-autoprefixer' , function() {
             ]
         });
 
-        myLasso.lassoPage({
+        return myLasso.lassoPage({
             pageName: 'test',
             dependencies: [
                 nodePath.join(__dirname, './fixtures/test.css')
             ]
-        }, function (err, page) {
-            if (err) return done(err);
+        }).then((page) => {
             expect(page.getCSSUrls()).to.deep.equal(['/static/test-4ac11b8f.css'])
-            done();
         });
     });
 });
