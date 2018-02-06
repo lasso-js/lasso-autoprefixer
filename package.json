@@ -19,12 +19,12 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^6.3.3",
-    "lasso": "^1.20.3",
     "postcss": "^5.0.16"
   },
   "devDependencies": {
     "chai": "^1.10.0",
     "jshint": "^2.4.4",
+    "lasso": "^1.20.3",
     "mocha": "^1.21.5"
   }
 }
