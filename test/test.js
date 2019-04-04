@@ -30,7 +30,7 @@ describe('lasso-autoprefixer' , function() {
                 nodePath.join(__dirname, './fixtures/test.css')
             ]
         }).then((page) => {
-            expect(page.getCSSUrls()).to.deep.equal(['/static/test-4ac11b8f.css'])
+            expect(page.getCSSUrls()).to.deep.equal(['/static/test-67092c20.css'])
         });
     });
 });
