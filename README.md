@@ -28,8 +28,7 @@ require('lasso').configure({
 
 # Plugin Configuration
 
-
-This plugin uses [Autoprefixer options](https://github.com/postcss/autoprefixer#options);
+It is recommended to use config that is [shareable between all tools] (https://github.com/postcss/autoprefixer#browsers), but config can also be passed directly if needed. See [Autoprefixer options](https://github.com/postcss/autoprefixer#options).
 
 
 ## Sample Configuration
