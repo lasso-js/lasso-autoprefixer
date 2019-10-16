@@ -1,6 +1,6 @@
 lasso-autoprefixer
 ==================
-This plugin for the [Lasso.js](https://github.com/lasso-js/lasso) will run your css through [autoprefixer](https://github.com/postcss/autoprefixer-core) allowing you to write css without having to worry about vendor prefixes.
+This plugin for the [Lasso.js](https://github.com/lasso-js/lasso) will run your css through [autoprefixer](https://github.com/postcss/autoprefixer) allowing you to write css without having to worry about vendor prefixes.
 
 # Installation
 
