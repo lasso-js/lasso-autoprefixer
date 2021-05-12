@@ -19,7 +19,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^9.5.0",
-    "postcss": "^7.0.14"
+    "postcss": "^8.2.10"
   },
   "devDependencies": {
     "chai": "^4.2.0",
